@@ -16,12 +16,12 @@ def factorial(number):
     return fact
 
 
-# assert factorial(1) == 1
-# assert factorial(2) == 2
-# assert factorial(3) == 6
-# assert factorial(6) == 720
-# assert factorial(10) == 3628800
-# assert factorial(25) == 15511210043330985984000000
+assert factorial(1) == 1
+assert factorial(2) == 2
+assert factorial(3) == 6
+assert factorial(6) == 720
+assert factorial(10) == 3628800
+assert factorial(25) == 15511210043330985984000000
 
 """
 Exercise 1: point_repr
