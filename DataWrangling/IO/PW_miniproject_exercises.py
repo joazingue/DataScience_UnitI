@@ -364,3 +364,22 @@ items_by_region = sorted(get_items_by_region(sorted_apt, max_item_by_post))
 
 print(len(items_by_region))
 print(items_by_region[:100])
+
+
+
+
+def searchfor(arrNumbers, search):
+    quant = 0
+    for number in arrNumbers:
+        if number == search:
+            quant += 1
+    return quant
+
+arrNum = [2, 3, 4, 3, 2, 1]
+
+assert searchfor(arrNum, 3)
+
+
+
+
+arrNum.count(3)
